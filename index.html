@@ -1,3 +1,4 @@
+<!-- https://www.figma.com/file/qbqvuhrmPGgmMMmlCJKq6G/Lagoona-(Copy)?type=design&node-id=0-1&mode=design -->
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -337,6 +338,52 @@
           </li>
         </ul>
       </div>
+    </section>
+    <section id="tour" class="tour">
+      <div class="container tour__container">
+        <h2 class="section-title"> Хочу тур</h2>
+        <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+          <div class="tour__form-country">
+            <label class="tour__form__descr">
+              Город вылета
+            </label>
+            <select name="city" class="tour__form__select">
+              <option value="Санкт-Петербург">Санкт-Петербург</option>
+              <option value="Москва">Москва</option>
+            </select>
+          </div>
+          <div class="tour__form-country">
+            <label class="tour__form__descr">
+              Страна
+            </label>
+            <select name="city" class="tour__form__select">
+                <option value="Австралия">Австралия</option>
+                <option value="Германия">Германия</option>
+            </select>
+          </div>
+          <div class="tour__form">
+            <label class="tour__form__descr">
+              Дата прибытия
+            </label>
+            <input class="tour__form__input" type="date" value="2021-10-18" min="2021-10-18">
+          </div>
+          <div class="tour__form tour__form-label-height">
+            <label class="tour__form__descr">
+              Ночей
+            </label>
+            <input class="tour__form__input tour__form__input-border-bottom" type="number" value="6" min="0">  
+          </div>
+          <div class="tour__form tour__form-label-height">
+            <label class="tour__form__descr">
+              Туристы
+            </label>
+            <input class=" tour__form__input tour__form__input-border-bottom" type="number" value="2" min="0"> 
+          </div>
+             <button class="btn tour__form__btn">Найти</button>
+        </form>
+        
+        
+      </div> 
     </section>
   </main>
   <footer class="footer"></footer>

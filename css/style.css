@@ -511,4 +511,69 @@ border-radius: 15px 15px 0px 0px;
   width: 100px;
 }
 
+/* Блок ХОЧУ ТУР */
+.tour__container {
+  background-color:#E9E9E9;
+  min-height: 256px;
+  max-width: 1170px;
+  border-radius: 15px;
+  padding: 45px 0;
+}
 
+.form {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #FFF;
+  max-width: 1080px;
+  padding: 31px 28px 32px;
+  margin: 0 45px;
+}
+
+.tour__form {
+  margin-right: 41px;
+  max-width: 121px;
+  height: 43px;  
+}
+
+.tour__form-country {
+ margin-right: 41px;
+ min-width: 169px;
+ height: 43px;
+ 
+}
+
+.tour__form__descr {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+ .tour__form__select {
+  border: none;
+  font-size: 16px;
+  display: block;
+  
+ }
+
+ .tour__form__input {
+  border: none;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+ } 
+
+ .tour__form-label-height {
+  height: 45px;
+ }
+
+ .tour__form__input-border-bottom {
+  border: none;
+  border-bottom: solid 1px #E9E9E9;
+  font-size: 16px;
+ }
+
+ .tour__form__btn {
+  margin-left: 10px;
+  width: 108px;
+ }
